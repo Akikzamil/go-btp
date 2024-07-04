@@ -1,0 +1,5 @@
+applications:
+ - name: goland-btp
+   memory: 1024M
+   buildpacks: [ https://github.com/cloudfoundry/go-buildpack.git ]
+   random-route: true
